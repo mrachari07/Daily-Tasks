@@ -1,0 +1,11 @@
+let visitors = 100;
+let preIncrement = ++visitors;
+console.log("Pre Increment :", preIncrement);
+let postIncrement = visitors++;
+console.log("Post Increment :", postIncrement);
+console.log("Value after Post Increment :", visitors);
+let preDecrement = --visitors;
+console.log("Pre Decrement :", preDecrement);
+let postDecrement = visitors--;
+console.log("Post Decrement :", postDecrement);
+console.log("Value after Post Decrement :", visitors);
